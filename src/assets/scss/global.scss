@@ -1,0 +1,55 @@
+ @import './base/mixins';
+
+//base
+html {
+  height:100%;
+}
+
+body {
+  height:100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background-color: lightsteelblue;
+}
+  
+#root{
+  height:100%;
+}
+
+.App {
+  min-height:100%;
+  // background-color: lightgray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  monospace;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+// About Page
+
+.about-wrapper{
+  margin: 0 1rem 0 1rem;
+}
+
+//Navbar
+
+.navbar-wrapper{
+  padding:1rem 1rem 0 1rem;
+  display:flex;
+  justify-content: space-between;
+  span{
+    color:maroon;
+    font-size:1.5rem;
+  }
+}
+
