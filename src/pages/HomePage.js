@@ -6,7 +6,7 @@ const Home = () => {
 
     return (
         <div className="central-wrapper">
-           <div>HomePage</div>
+           <div>HomePage!</div>
         </div>
     )
 }
