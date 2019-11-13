@@ -5,7 +5,6 @@ class Home extends React.Component {
 
     state = {
         value: '',
-        // toShow: false,
         children: []
     }
 
@@ -48,14 +47,12 @@ class Home extends React.Component {
                 />
 
                 <div className="box-container">
-                    {this.state.children.map(child => child)}
+                    {this.state.children.map((child,index) => <span key = {index}> {child}</span>)}
                 </div>
             </React.Fragment>
         )
     }
 
 }
-
-
 
 export default Home
